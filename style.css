@@ -1,0 +1,46 @@
+* {
+  font-family: "Bungee", cursive;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 120px;
+  height: 120px;
+}
+button {
+  margin: 0 10px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(217, 255, 0);
+}
+.container-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 800px;
+  height: 100vh;
+}
+.container-opponent {
+  position: absolute;
+  top: 8%;
+}
+.versus {
+  position: absolute;
+  top: 35%;
+  font-size: 40px;
+}
+.container-button {
+  position: absolute;
+  bottom: 30%;
+}
+h1 {
+  position: absolute;
+  bottom: 5%;
+}
+.container-button button:hover {
+  opacity: 0.8;
+}
